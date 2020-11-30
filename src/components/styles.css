@@ -47,3 +47,51 @@
     display: block;
   }
 }
+.sections {
+  /* background-color: #ccc; */
+  color: #000524;
+  padding: 30px 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: blue;
+}
+
+.list {
+  line-height: 30px;
+  font-size: 18px;
+}
+.sub-title {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.name {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 3%;
+}
+#date {
+  margin-left: 40px;
+}
+
+.divide {
+  margin: 10px 3%;
+}
+.react-sweet-progress-line-inner {
+  min-height: 20px !important;
+  border-radius: 0px !important;
+}
+.react-sweet-progress-line {
+  margin: 20px !important;
+  border-radius: 0px !important;
+}
+.react-sweet-progress {
+  width: 80% !important;
+}
+.react-sweet-progress-symbol {
+  font-weight: 500 !important;
+}

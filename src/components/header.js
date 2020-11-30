@@ -8,7 +8,7 @@ export default function header() {
   return (
     <>
       <div id="header">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg type="lines" bg={true} />
         <Grid container spacing={3}>
           <Grid item xs={12}>
             <h1 id="Head-text">Hii, I'm Ishika</h1>
