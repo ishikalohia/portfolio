@@ -1,0 +1,27 @@
+#header canvas {
+  height: 794px !important;
+  background-color: rgba(0, 0, 0);
+}
+#header {
+  height: 794px;
+}
+#Head-text {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
+  margin: 20px;
+  margin-top: 10%;
+}
+#head-para {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.button {
+  margin: 5px !important;
+  padding: 15px 30px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #ffffff;
+}
