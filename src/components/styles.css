@@ -4,6 +4,7 @@
 }
 #header {
   height: 794px;
+  text-align: center;
 }
 #Head-text {
   color: #ffffff;
@@ -24,4 +25,25 @@
   font-size: 15px !important;
   font-weight: 700 !important;
   color: #ffffff;
+}
+#about {
+  background-color: #000524;
+  color: #ccc;
+  line-height: 30px;
+  padding: 60px 6px;
+}
+.about-content {
+  font-size: 18px;
+}
+
+.about-image {
+  width: 70%;
+  height: 90%;
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-image {
+    display: block;
+  }
 }
