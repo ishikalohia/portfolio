@@ -45,6 +45,20 @@ const name = [
   "To-do List",
   "Corona Checklist",
 ];
+const details = [
+  "Conversational Voice Controlled React News Application using Alan AI It allows you to control absolutely everything in the app using your voice.",
+  "IPL Dashboard visualizing data from 2008-16. The dashboard displays all the teams and seasons summary. The data is parsed from a CSV file and represented in a structured manner.",
+  "An Instructor led e-learning platform for K-12 students. The website is in use by a startup YaRaS. This is the main platform used for buying courses and conducting classes",
+  "DSC MAIT official Website. Worked on landing page which give users a page where they can know more about DSC MAIT",
+  "Portfolio Website made in reactJs. The website provides complete Educational and work information about me.",
+  "A real Time chat application where multiple users can join-in in different rooms and talk to each other. The application used reactJs and Socket.io",
+  "A real-life web application where users can add their camping experience and campground details. The website has a well-designed database.",
+  "Javascript based Color Application where user have to select correct color based on rgb code. The game has different level.",
+  "Patatap is a website that lets you press keys and it makes sounds. I have used PaperJS, HowlerJS and basic jQuery to make this work.",
+  "A Facebook Echo bot which user can link with their Facebook Pages. The bot will echo whatever the user types.",
+  "A javascript based Application where users can enter their To-Do. They can enter any number of items and can delete or cut-out the done tasks.",
+  "A Web ApPlication which provides users all the basic info about COVID-19 like What is Covid? its symptoms, help lines, Do-don'ts etc",
+];
 const image = [
   alan,
   ipl,
@@ -99,9 +113,7 @@ export default function Webdev() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    {details[i]}
                   </Typography>
                 </CardContent>
               </CardActionArea>

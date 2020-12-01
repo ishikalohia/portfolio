@@ -8,35 +8,31 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import splitwise from "../../assets/splitwise.JPG";
-import texteditor from "../../assets/texteditor.JPG";
-import path from "../../assets/path.JPG";
+import Face from "../../assets/face.JPG";
+import Harry from "../../assets/harry.JPG";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    // maxWidth: 345,
   },
   media: {
     height: 140,
   },
 }));
 
-const name = ["Splitwise", "Shortest Path", "Text Editor"];
-const image = [splitwise, path, texteditor];
-const index = [0, 1, 2];
+const name = ["Face Recogination", "harry Potter Invisibility Clock"];
+const image = [Face, Harry];
+const index = [0, 1];
 const link = [
-  "https://github.com/ishikalohia/Splitwise",
-  "https://github.com/ishikalohia/shortest-path",
-  "https://github.com/ishikalohia/text-editor",
+  "https://github.com/ishikalohia/Face-Detection",
+  "https://github.com/ishikalohia/invisiblity-clock",
 ];
-const Detials = [
-  "A web-application displaying the logic used in popular Splitwise App. It shows different puzzles where there is a complex transition happening between a group of people. The logic provides a simplified way to complete the transition.",
-  "A Web-application displaying the use of Dijkstra's Alogorithm in various map based app. It provide the shortest path between different places displayed in a puzzle.",
-  "This web-application showcase the use of stack in different text editor. The user can type in the test area and the application will show how stack is being used internally.",
+const Details = [
+  "A face Detection project using python and openCV. The application will use webcam to find a face and highlight it with a square.",
+  "Harry Potter Invisiblity-Clock application using openCV and numpy. User can use a Red Coloured cloth as their invisibility clock to make themselves invisible.",
 ];
 
-export default function Webdev() {
+export default function Machine() {
   const classes = useStyles();
 
   return (
@@ -60,14 +56,11 @@ export default function Webdev() {
                     color="textSecondary"
                     component="p"
                   >
-                    {Detials[i]}
+                    {Details[i]}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                {/* <Button size="small" color="primary">
-                  Share
-                </Button> */}
                 <Button
                   size="small"
                   color="primary"

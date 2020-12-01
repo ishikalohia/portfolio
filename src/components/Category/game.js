@@ -8,35 +8,34 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import splitwise from "../../assets/splitwise.JPG";
-import texteditor from "../../assets/texteditor.JPG";
-import path from "../../assets/path.JPG";
+import Snake from "../../assets/snake.JPG";
+import Shooting from "../../assets/shooting.JPG";
+import sudoku from "../../assets/sudoku.JPG";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    // maxWidth: 345,
   },
   media: {
     height: 140,
   },
 }));
 
-const name = ["Splitwise", "Shortest Path", "Text Editor"];
-const image = [splitwise, path, texteditor];
+const name = ["Snake Game", "Multiplayer Shooting Game", "Sudoku Solver"];
+const image = [Snake, Shooting, sudoku];
 const index = [0, 1, 2];
 const link = [
-  "https://github.com/ishikalohia/Splitwise",
-  "https://github.com/ishikalohia/shortest-path",
-  "https://github.com/ishikalohia/text-editor",
+  "https://github.com/ishikalohia/snake-ladder",
+  "https://github.com/ishikalohia/Shooting_game",
+  "https://github.com/ishikalohia/sudoku-solver",
 ];
 const Detials = [
-  "A web-application displaying the logic used in popular Splitwise App. It shows different puzzles where there is a complex transition happening between a group of people. The logic provides a simplified way to complete the transition.",
-  "A Web-application displaying the use of Dijkstra's Alogorithm in various map based app. It provide the shortest path between different places displayed in a puzzle.",
-  "This web-application showcase the use of stack in different text editor. The user can type in the test area and the application will show how stack is being used internally.",
+  "Snake Game - eat, grow, repeat! Control a snake using the arrow keys. Grow your snake by eating food/objects.",
+  "A multiplayer Shooting game. Multiple users can join and play against each other. The user who get shoot by another player fails.",
+  "Sudoku Solver provides users different puzzles. User can enjoy the game and can finally see the Solution",
 ];
 
-export default function Webdev() {
+export default function Game() {
   const classes = useStyles();
 
   return (

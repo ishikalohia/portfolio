@@ -8,6 +8,8 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Webdev from "./Category/Webdev";
 import Datastr from "./Category/Datastr";
+import Game from "./Category/game";
+import Machine from "./Category/Machine";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -83,18 +85,20 @@ export default function Projects() {
       <TabPanel value={value} index={0}>
         <Webdev />
         <Datastr />
+        <Game />
+        <Machine />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <Webdev />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Web-Games
+        <Game />
       </TabPanel>
       <TabPanel value={value} index={3}>
         <Datastr />
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Machine Learning
+        <Machine />
       </TabPanel>
     </div>
   );
