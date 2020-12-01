@@ -95,3 +95,30 @@
 .react-sweet-progress-symbol {
   font-weight: 500 !important;
 }
+#footer {
+  background-color: #000524;
+  margin-top: 8%;
+  text-align: center;
+  padding: 5%;
+  color: #ccc !important;
+}
+#foot-head {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#foot-sub-head {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.2;
+}
+.icon {
+  font-size: 20px;
+  margin: 3%;
+}
+.MuiSvgIcon-root {
+  width: 2.2em !important;
+  height: 1.5em !important;
+}

@@ -8,7 +8,7 @@ export default function header() {
   return (
     <>
       <div id="header">
-        <ParticlesBg type="lines" bg={true} />
+        <ParticlesBg type="circle" bg={true} />
         <Grid container spacing={3}>
           <Grid item xs={12}>
             <h1 id="Head-text">Hii, I'm Ishika</h1>
@@ -17,9 +17,9 @@ export default function header() {
           <Grid item xs={12} sm={12} md={3}></Grid>
           <Grid item xs={12} sm={12} md={6}>
             <h3 id="head-para">
-              I am a web development engineer and I use react and python to
-              develop pages. This project is a resume template that can be used
-              as the project home page or resume page.
+              I'm a passionate programmer and a Web Developer. I love to grind
+              technology and weld it with creativity and fun into beautiful and
+              efficient websites.
             </h3>
           </Grid>
           <Grid item xs={12} sm={12} md={3}></Grid>
@@ -29,6 +29,8 @@ export default function header() {
           color="default"
           size="large"
           className="button"
+          href="https://github.com/ishikalohia"
+          target="_blank"
         >
           Github
         </Button>
@@ -37,6 +39,8 @@ export default function header() {
           color="primary"
           size="large"
           className="button"
+          href="https://www.linkedin.com/in/ishika-lohia-30484817a/"
+          target="_blank"
         >
           LinkedIn
         </Button>
