@@ -5,6 +5,7 @@ import About from "./components/About";
 import Education from "./components/Education";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Education />
         <Work />
         <Skills />
+        <Projects />
       </div>
     );
   }
