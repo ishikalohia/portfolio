@@ -20,6 +20,7 @@ import portfolio from "../../assets/portfolio.JPG";
 import todo from "../../assets/todo.JPG";
 import Yaras from "../../assets/Yaras.JPG";
 import Yelpcamp from "../../assets/Yelpcamp.JPG";
+import Adsoul from "../../assets/adsoul.JPG";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,6 +39,7 @@ const name = [
   "DSC-MAIT Website",
   "Portfolio",
   "React Chat App",
+  "Adsoul",
   "YelpCamp",
   "Color Game",
   "Patarap",
@@ -52,6 +54,7 @@ const details = [
   "DSC MAIT official Website. Worked on landing page which give users a page where they can know more about DSC MAIT",
   "Portfolio Website made in reactJs. The website provides complete Educational and work information about me.",
   "A real Time chat application where multiple users can join-in in different rooms and talk to each other. The application used reactJs and Socket.io",
+  "Adsoul is a dashboard to show the ad stats for different apps",
   "A real-life web application where users can add their camping experience and campground details. The website has a well-designed database.",
   "Javascript based Color Application where user have to select correct color based on rgb code. The game has different level.",
   "Patatap is a website that lets you press keys and it makes sounds. I have used PaperJS, HowlerJS and basic jQuery to make this work.",
@@ -66,6 +69,7 @@ const image = [
   dscmait,
   portfolio,
   Chatapp,
+  Adsoul,
   Yelpcamp,
   Colorgame,
   Patarap,
@@ -73,7 +77,7 @@ const image = [
   todo,
   Corona,
 ];
-const index = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+const index = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const link = [
   "https://news-app-best.herokuapp.com/",
   "https://ipl-dashboard-1.herokuapp.com/",
@@ -81,6 +85,7 @@ const link = [
   "https://dscmait.xyz/#/",
   "https://github.com/ishikalohia/portfolio",
   "https://5f8d6153ea9a901b9f4a805d--confident-wilson-98453d.netlify.app/",
+  "https://adsoul-ishika.herokuapp.com/",
   "https://fathomless-fortress-27104.herokuapp.com/",
   "https://github.com/ishikalohia/Colorgame",
   "https://github.com/ishikalohia/Patarap",
